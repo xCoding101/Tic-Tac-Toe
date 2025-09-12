@@ -1,0 +1,45 @@
+Legends
+(*) - normal challenge to overcome
+(**) - hard challenge to overcome
+(***) - very hard challenge to overcome
+
+
+Challenges
+1. infinite loop between class CheckWinConditions and TicTacToe, program crash (***)
+2. how to divide code into separate classes to better code comprehension (*)
+3. NewGameLoop class dont work (correctly) initial solution timer.schedule(new TimerTask() method,
+implement JButton or key Scanner to restart game (**)
+4. restart game using Scanner prove difficult, switch to JButtons (advantage can restart game at any time) (**)
+5. how to implement WIN/LOSE/TIE? (*)
+5.1 why WIN/LOSE/TIE dont update (*)
+6. how dose AI work? what algorytm to use? (**)
+6.1 how to implement Minimax? (**)
+6.2 found solution but the code is not compatible with project (need to find a way to modify it) (***)
+6.3 CPU dont behave as intended, think "X" symbol belong to him, also cant chose optimal wining strategy (**)
+7. how to implement 6x6 grid (3 in line to win) (*)
+7.1 problem method calculating win dont work/ why? (*)
+7.1.2 method out of bound exception, need to fix variable (***)
+7.2 class NewGameLoop dont work (**)
+8. java SWING have multiple layout function / how to combine those layout? (**)
+9. You can click before CPU move (*)
+10. when choosing grid multiple times the grid multiply how to fix since "jpanel.remove()" dont work (***)
+11. MiniMax algorithm impossible to implement on a 6x6 grid
+12. when running 6x6 cant click on "New Game" till minmax algorithm finish working (**)
+13. how to refactor a program that has 1000 line of code? what code can be erase or replace (**)
+
+
+
+Improvements
+1. Divide initial code into separate classes (BoardCreator, TicTacToe, CheckWinConditions) - (done) - v 1.1
+2. restart game (done) - v 2.0
+3. create WIN/LOSE/TIE counter (done) - v 2.1
+4. CPU AI for grid 3x3 (done) - v 3.0 /  CPU AI for grid 6x6 (partially AI isnt very good) - v 3.1
+5. different game grid (3x3 and 6x6) (done) - v 3.0
+5.1 allow player chose grid (done) - v 3.1
+5.2 program need to know what MiniMaxAlgorithm and CheckWinConditions class to chose (done) - v 3.1
+5.3 NewGameLoop for grid 3x3 and 6x6 (done) - v 3.1
+5.4 dont allow the player to click a second time before CPU make his move (done) - v 3.1
+6. how to change code so it is more compatible with "encapsulation" principle (done) - v 3.2
+7. use layout to have the application look better (done) - v 3.1
+8. update the GUI structure (introduce new functions for more interesting UI) / (done) - v 3.1
+9. if NewGameLoop make so the PlayX is the first to move (done) - v 3.1
